@@ -1,0 +1,11 @@
+n=int(input("enter the number:"))
+if(n<0):
+    print("factorial is not possible")
+elif(n==0):
+    print("foctorial is the given number = 1")
+else:
+    f=1
+    for i in range(1,n+1):
+        f=f * i
+    print("factorial of given number= ",f)
+

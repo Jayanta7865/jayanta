@@ -1,0 +1,6 @@
+print("hello")
+print("my name is jayanta SAMANTA and\ni am a bca student")
+print("hello")
+print("my name is jayanta SAMANTA and\ni am a b dent")
+print("jayanta",5,7,8, sep="%",end="00089\n")
+print("jayanta")
