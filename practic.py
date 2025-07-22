@@ -1,0 +1,58 @@
+#string palindrome using match case
+str=input("enter a string: ").lower()
+reversed_string=str[::-1]
+match str==reversed_string:
+    case True:
+        print("the string is palindrome")
+    case False:
+         print("the string is not palindrome")
+         
+#string palindrome using function
+
+def palindrome_or_not(char):
+    char= char.replace(" ","").lower()
+    reversed_char=char[::-1]
+    if char==reversed_char:
+        print("the string is palindrome")
+    else:
+        print("the string is not palindrome")
+user_input=input("Ente a string: ")
+palindrome_or_not(user_input)
+  #reversed string
+   
+a="jayanta samanta"
+a=a.replace(""," ").upper()
+# reversed_a=a[::-1]
+print(a)
+#even odd using function
+
+# def even_or_odd(num):
+    
+#     if num%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+# input=int(input("enter a number:"))
+#simple calculator
+print("1.Addition")
+print("2.subtruction")
+print("3.Multiplication")
+print("4.Division")
+
+num=int(input("Enter the number (1-4): "))
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+
+
+if num==1:
+    print(f"{num1} + {num2} =",num1+num2)
+if num==2:
+    print(f"{num1} - {num2} =",num1-num2)
+if num==3:
+    print(f"{num1} * {num2} =",num1*num2)
+if num==4:
+    print(f"{num1} / {num2} =",num1/num2)
+else:
+    print(" Invalid number! chose the  number in 1 to 4")
+
+

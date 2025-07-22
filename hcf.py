@@ -7,8 +7,8 @@ def hcf(x,y):
         if(x%i==0)and(y%i==0):
             hcf=i
     return hcf
-num1=54
-num2=24
-print("the hcf is ",(num1,num2))
+x=54
+y=24
+print("the hcf is ",(hcf))
 
 

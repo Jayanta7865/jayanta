@@ -1,2 +1,3 @@
-def average(a=10,b=12):
-#     print("
+s1={1,1,2,3,4,5}
+# del s1
+# print(s1)

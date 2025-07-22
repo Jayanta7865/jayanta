@@ -1,7 +1,7 @@
 import turtle as tur
 import colorsys as cs
 tur.setup(800,800)
-tur.speed(1)
+tur.speed(0)
 tur.tracer(10)
 tur.width(2)
 tur.bgcolor("black")
