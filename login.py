@@ -14,7 +14,7 @@ def validate_login():
 
 # Create the main window
 parent = tk.Tk()
-parent.title("Login Form")
+parent.title("Admin Login Form")
 
 # Create and place the username label and entry
 username_label = tk.Label(parent, text="Userid:")

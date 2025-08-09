@@ -68,4 +68,12 @@ print(list)
 New=(list+new_list)#concatenate
 print(New)
 
+#for user input
+n=int(input("Enter how many number in list: "))
+l=[]
+for i in range(n):
+    l1=int(input(f"Enter number {i+1}: "))
+    l.append(l1)
+print("Your list item are",l)
+
 

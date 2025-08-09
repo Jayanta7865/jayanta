@@ -1,3 +1,13 @@
-s1={1,1,2,3,4,5}
-# del s1
-# print(s1)
+int(input("Enter a number you want to check: "))
+# l=len(str(n))
+# sum=0
+# temp=n
+# while temp>0:
+#      digit=temp%10
+#      sum+=digit**l
+#      temp=temp//10
+
+# if n==sum:
+#     print("The given number is Armstrong number!")
+# else:
+#     print("The given number is  not Armstrong number!")
