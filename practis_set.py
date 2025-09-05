@@ -112,6 +112,15 @@
 # 9. Dictionaries
 
 # # Create a dictionary from user input and search a key
+# dict={}
+# name=input("Enter your name: ")
+# dict.update({"name":name})
+# roll=int(input("Enter your roll: "))
+# dict.update({"roll":roll})
+# clas=input("Enter your class: ")
+# dict.update({"class":clas})
+# print(dict.get("name"))
+# print(dict)
 # def hello(n):
 #       my_dict = {}
       
@@ -138,6 +147,10 @@
 # 10. Sets
 
 # # Find union and intersection of two sets
+a={2,3,4,6}
+b={2,3,7,8,9}
+print(a.union(b))
+print(a.intersection(b))
 # 11. Tuples
 
 # # Unpack a tuple and print values
@@ -147,13 +160,13 @@
 # 13. Exception Handling
 
 # # Handle ZeroDivisionError using try-except
-n=float(input("Enter the dividend: "))
-n1=float(input("Enter the divisor: "))
-try:
-     result=n/n1
-     print(result)
-except ZeroDivisionError:
-     print("Any number can't devided by 0")
+# n=float(input("Enter the dividend: "))
+# n1=float(input("Enter the divisor: "))
+# try:
+#      result=n/n1
+#      print(result)
+# except ZeroDivisionError:
+#      print("Any number can't devided by 0")
 # 14. Recursion
 
 # # Write a recursive function to calculate Fibonacci
@@ -203,4 +216,4 @@ except ZeroDivisionError:
 # print("After deleted duplicate values\n",l)
 # Write a program to count word frequency in a string.
 
-# Write a program to merge two dictionaries.
+# Write a program to merge two dictionary

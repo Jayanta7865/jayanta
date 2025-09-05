@@ -15,6 +15,6 @@ else:
 
     
                                                                                                    
-    print("Security code is:",random_string1[0:]+c[0:len(c)]+random_string[0:len(random_string)])
+    print("Security code for",str, ":",random_string1[0:]+c[0:len(c)]+random_string[0:len(random_string)])
 
 #decoding code

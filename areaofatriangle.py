@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 print("enter the three sides of triangle")
 a=float(input("enter the 1st side: "))
 if a<0:
@@ -13,7 +13,7 @@ if c<0:
   
 if a + b > c and a + c > b and b + c > a:
  s=(a+b+c)/2.0
- area=math.sqrt(s*(s-a)*(s-b)*(s-c))
+ area=sqrt(s*(s-a)*(s-b)*(s-c))
  print("area of a triangle=",area)
 else:
  print("given side is do not a perfect triangle")
