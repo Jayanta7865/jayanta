@@ -109,6 +109,18 @@
 # # 8. List Comprehension
 
 # # Create a list of squares from 1 to 10 using list comprehension
+def square(n):
+    return n*n
+l=[1,2,3,4,5,6,7,8,9,10]
+# n=int(input("Enter the number of item you want to placed: "))
+# for i in range(n):
+#     item=int(input(f"Enter {i+1} item: "))
+#     l.append(item)
+print("Your list is:",l)
+newlist=list(map(square,l))
+print("After Square all items: ",newlist)
+
+
 # 9. Dictionaries
 
 # # Create a dictionary from user input and search a key
@@ -147,16 +159,23 @@
 # 10. Sets
 
 # # Find union and intersection of two sets
-a={2,3,4,6}
-b={2,3,7,8,9}
-print(a.union(b))
-print(a.intersection(b))
+# a={2,3,4,6}
+# b={2,3,7,8,9}
+# print(a.union(b))
+# print(a.intersection(b))
 # 11. Tuples
 
 # # Unpack a tuple and print values
 # 12. File Handling
 
 # # Write and read a file
+with open("bio.txt","w") as file:
+    file.write("Hello,My name is jayanta samanta.I'm a python devoloper.")
+
+f=open("bio.txt","r")
+data=f.read()
+print(data)
+f.close()
 # 13. Exception Handling
 
 # # Handle ZeroDivisionError using try-except
@@ -176,9 +195,10 @@ print(a.intersection(b))
 
 # # Create a class `Student` with attributes and a method to display info
 # 16. Lambda Functions and map(), filter()
-
 # # Use map to square a list of numbers
+
 # # Use filter to get even numbers from a list
+
 # 17. Decorators (Advanced)
 
 # # Create a simple decorator to time a function
